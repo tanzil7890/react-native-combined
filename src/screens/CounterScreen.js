@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Text, View, Button, StyleSheet } from 'react-native';
 
-//useState is used as hook, hook is a function that adds ew functionality to the function components.
+//useState is used as hook, hook is a function that adds new functionality to the function components.
 
 //[counter, setCounter] is referred to as array destructuring
+
+//const counterScreen = () => { } is functional component
 const CounterScreen = () => {
 
     const [ counter, setCounter ] = useState(0);
